@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Bash script",
+            "type": "bash",
+            "request": "launch",
+            "program": "/media/carla/AVRL/our_ppo/run.sh",
+            "args": [],  
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Attach to Python",
+            "type": "python",
+            "request": "attach",
+            "connect": {
+                "host": "localhost",
+                "port": 5678
+            }
+        }
+    ]
+}
