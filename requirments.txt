@@ -1,0 +1,9 @@
+torch==2.0.1+cu118
+sb3_contrib==2.4.0
+gymnasium==1.0.0
+opencv-python==4.8.0.76
+shimmy>=2.0
+sb3-contrib
+torchaudio
+torchattacks
+xformers
