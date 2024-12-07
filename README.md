@@ -9,5 +9,11 @@ Truncated Quantile Critics is a RL algorithm provided by Stable Baseline 3 Contr
 
 ## ⚙ Setup
 
+Download `Carla 0.9.13` and setup it's environment.<br/>
 Use `pip install -r requirments.txt` to install the requirements.<br/>
-To use the model download the model from <a href="https://huggingface.co/Teimuri/TQC_CARLA/tree/main"> Huggingface</a>.
+To use the model download it from <a href="https://huggingface.co/Teimuri/TQC_CARLA/tree/main"> Huggingface</a>.<br/>
+
+## Inference
+
+After downloading the model place it in the models folder and use `bash run.sh` to execute the code.<br/>
+Due to periodic crashing of Carla, the `run.sh` will restart the process after a crash.
